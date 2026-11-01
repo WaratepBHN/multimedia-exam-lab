@@ -1,4 +1,4 @@
-import {questionBank,quickReview,audioDeepDive,webDeepDive,vectorDeepDive,chapterNames} from './data/index.js';
+import {questionBank,quickReview,audioDeepDive,webDeepDive,vectorDeepDive,chapterNames} from './data/index.js?v=20261102-ch6';
 import {createExam,gradeExam,escapeHTML as e,formatDuration} from './core.js';
 
 const page=document.body.dataset.page;
