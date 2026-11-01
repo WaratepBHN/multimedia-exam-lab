@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" role="img" aria-labelledby="encoding-title encoding-desc">
+  <title id="encoding-title">จากอักขระ ก เป็น UTF-8 bytes</title>
+  <desc id="encoding-desc">อักขระ ก มี Unicode code point U+0E01 เมื่อเข้ารหัสด้วย UTF-8 จะได้สาม bytes คือ E0 B8 81 การเข้ารหัสต่างจากการเลือกรูปร่าง glyph ของฟอนต์</desc>
+  <defs><marker id="encoding-arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 7 3.5 0 7" fill="none" stroke="#a8b8cb" stroke-width="1.5"/></marker></defs>
+  <rect width="600" height="260" rx="20" fill="#0d1724"/>
+  <g font-family="Noto Sans Thai, NotoSansThai, sans-serif" text-anchor="middle">
+    <text x="300" y="40" fill="#edf3fb" font-size="22">Character → Code point → Bytes</text>
+    <g fill="none" stroke="#a8b8cb" stroke-width="2" marker-end="url(#encoding-arrow)"><path d="M112 116H136"/><path d="M272 116H296"/><path d="M397 116H421"/></g>
+    <rect x="20" y="72" width="90" height="90" rx="14" fill="#18362f" stroke="#8aefc4" stroke-width="2"/>
+    <rect x="140" y="72" width="130" height="90" rx="14" fill="#152438" stroke="#9dbdff" stroke-width="2"/>
+    <rect x="300" y="72" width="95" height="90" rx="14" fill="#2e2a26" stroke="#ffc18e" stroke-width="2"/>
+    <rect x="425" y="72" width="155" height="90" rx="14" fill="#18362f" stroke="#8aefc4" stroke-width="2"/>
+    <text x="65" y="132" fill="#8aefc4" font-size="47">ก</text>
+    <text x="205" y="125" fill="#9dbdff" font-size="24">U+0E01</text>
+    <text x="347.5" y="124" fill="#ffc18e" font-size="21">UTF-8</text>
+    <text x="502.5" y="124" fill="#8aefc4" font-size="24">E0 B8 81</text>
+    <text x="65" y="190" fill="#a8b8cb" font-size="16">อักขระ</text>
+    <text x="205" y="190" fill="#a8b8cb" font-size="16">code point</text>
+    <text x="347.5" y="190" fill="#a8b8cb" font-size="16">encoding</text>
+    <text x="502.5" y="190" fill="#a8b8cb" font-size="16">3 bytes</text>
+    <text x="300" y="235" fill="#edf3fb" font-size="17">เปลี่ยนฟอนต์ เปลี่ยน glyph — code point ยังเดิม</text>
+  </g>
+</svg>

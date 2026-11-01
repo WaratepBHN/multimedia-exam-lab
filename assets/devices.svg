@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" role="img" aria-labelledby="devices-title devices-desc">
+  <title id="devices-title">CPU, GPU และ NPU ใน multimedia</title>
+  <desc id="devices-desc">CPU เหมาะกับงานทั่วไปและควบคุม GPU เหมาะงานขนานและ rendering NPU เหมาะ neural network ที่รองรับ ภาพด้านล่างสรุปส่วนหนึ่งของ flow จาก capture ผ่าน process ไป present</desc>
+  <defs><marker id="devices-arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 7 3.5 0 7" fill="none" stroke="#a8b8cb" stroke-width="1.5"/></marker></defs>
+  <rect width="600" height="260" rx="20" fill="#0d1724"/>
+  <g font-family="Noto Sans Thai, NotoSansThai, sans-serif" text-anchor="middle">
+    <g fill="none" stroke-width="2" stroke-linecap="round">
+      <g stroke="#8aefc4"><path d="M70 29v13m19-13v13m19-13v13m19-13v13m19-13v13M70 156v13m19-13v13m19-13v13m19-13v13m19-13v13M24 73h12m-12 22h12m-12 22h12m144-44h12m-12 22h12m-12 22h12"/><rect x="36" y="42" width="144" height="114" rx="15" fill="#18362f"/></g>
+      <g stroke="#9dbdff"><path d="M262 29v13m19-13v13m19-13v13m19-13v13m19-13v13M262 156v13m19-13v13m19-13v13m19-13v13m19-13v13M216 73h12m-12 22h12m-12 22h12m144-44h12m-12 22h12m-12 22h12"/><rect x="228" y="42" width="144" height="114" rx="15" fill="#152438"/></g>
+      <g stroke="#ffc18e"><path d="M454 29v13m19-13v13m19-13v13m19-13v13m19-13v13M454 156v13m19-13v13m19-13v13m19-13v13m19-13v13M408 73h12m-12 22h12m-12 22h12m144-44h12m-12 22h12m-12 22h12"/><rect x="420" y="42" width="144" height="114" rx="15" fill="#2e2a26"/></g>
+    </g>
+    <text x="108" y="88" fill="#8aefc4" font-size="30" font-weight="700">CPU</text>
+    <text x="108" y="119" fill="#edf3fb" font-size="17">Control</text>
+    <text x="108" y="143" fill="#a8b8cb" font-size="16">งานทั่วไป</text>
+    <text x="300" y="88" fill="#9dbdff" font-size="30" font-weight="700">GPU</text>
+    <text x="300" y="119" fill="#edf3fb" font-size="17">Parallel</text>
+    <text x="300" y="143" fill="#a8b8cb" font-size="16">Render / ขนาน</text>
+    <text x="492" y="88" fill="#ffc18e" font-size="30" font-weight="700">NPU</text>
+    <text x="492" y="119" fill="#edf3fb" font-size="17">Neural</text>
+    <text x="492" y="143" fill="#a8b8cb" font-size="16">AI ที่รองรับ</text>
+    <rect x="36" y="199" width="144" height="39" rx="12" fill="#142332"/>
+    <rect x="228" y="199" width="144" height="39" rx="12" fill="#142332"/>
+    <rect x="420" y="199" width="144" height="39" rx="12" fill="#142332"/>
+    <g fill="none" stroke="#a8b8cb" stroke-width="2" marker-end="url(#devices-arrow)"><path d="M188 219h30"/><path d="M380 219h30"/></g>
+    <text x="108" y="225" fill="#edf3fb" font-size="18">Capture</text>
+    <text x="300" y="225" fill="#edf3fb" font-size="18">Process</text>
+    <text x="492" y="225" fill="#edf3fb" font-size="18">Present</text>
+  </g>
+</svg>

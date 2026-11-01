@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" role="img" aria-labelledby="streaming-title streaming-desc">
+  <title id="streaming-title">เส้นทางจากกล้องสู่ผู้ชม streaming</title>
+  <desc id="streaming-desc">กล้องหรือ OBS ส่งภาพเข้าระบบด้วย ingest จากนั้น media server transcode และ package สร้าง segments หลาย bitrate ผ่าน CDN ไปยัง player ที่เลือก bitrate ตามเครือข่ายได้</desc>
+  <defs><marker id="streaming-arrow" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto"><path d="M0 0 7 3.5 0 7" fill="none" stroke="#a8b8cb" stroke-width="1.5"/></marker></defs>
+  <rect width="600" height="260" rx="20" fill="#0d1724"/>
+  <g font-family="Noto Sans Thai, NotoSansThai, sans-serif" text-anchor="middle">
+    <text x="300" y="39" fill="#edf3fb" font-size="22">จากภาพสด → ถึงผู้ชม</text>
+    <g fill="none" stroke="#a8b8cb" stroke-width="2" marker-end="url(#streaming-arrow)"><path d="M110 116H129"/><path d="M230 116H249"/><path d="M350 116H369"/><path d="M470 116H489"/></g>
+    <rect x="12" y="66" width="96" height="108" rx="14" fill="#18362f" stroke="#8aefc4" stroke-width="1.5"/>
+    <rect x="132" y="66" width="96" height="108" rx="14" fill="#152438" stroke="#9dbdff" stroke-width="1.5"/>
+    <rect x="252" y="66" width="96" height="108" rx="14" fill="#2e2a26" stroke="#ffc18e" stroke-width="1.5"/>
+    <rect x="372" y="66" width="96" height="108" rx="14" fill="#152438" stroke="#9dbdff" stroke-width="1.5"/>
+    <rect x="492" y="66" width="96" height="108" rx="14" fill="#18362f" stroke="#8aefc4" stroke-width="1.5"/>
+    <g fill="none" stroke-width="2.5" stroke-linejoin="round">
+      <g stroke="#8aefc4"><rect x="36" y="87" width="35" height="27" rx="5"/><path d="m71 95 13-7v25l-13-7"/></g>
+      <g stroke="#9dbdff"><path d="M163 89h34v25h-34M151 102h34m-8-8 8 8-8 8"/></g>
+      <g stroke="#ffc18e"><rect x="278" y="85" width="44" height="14" rx="3"/><rect x="278" y="105" width="44" height="14" rx="3"/><path d="M285 92h3m-3 20h3"/></g>
+      <g stroke="#9dbdff"><circle cx="420" cy="102" r="7"/><circle cx="399" cy="88" r="5"/><circle cx="441" cy="88" r="5"/><circle cx="399" cy="116" r="5"/><circle cx="441" cy="116" r="5"/><path d="m405 92 9 6m12 0 9-6m-30 20 9-6m12 0 9 6"/></g>
+      <g stroke="#8aefc4"><rect x="515" y="84" width="50" height="33" rx="4"/><path d="M540 117v8m-14 0h28"/></g>
+    </g>
+    <path d="m535 92 12 9-12 9Z" fill="#8aefc4"/>
+    <text x="60" y="151" fill="#edf3fb" font-size="16">กล้อง / OBS</text>
+    <text x="180" y="151" fill="#edf3fb" font-size="18">Ingest</text>
+    <text x="300" y="151" fill="#edf3fb" font-size="18">Server</text>
+    <text x="420" y="151" fill="#edf3fb" font-size="18">CDN</text>
+    <text x="540" y="151" fill="#edf3fb" font-size="18">Player</text>
+    <text x="180" y="202" fill="#9dbdff" font-size="16">เช่น RTMP</text>
+    <text x="300" y="202" fill="#ffc18e" font-size="16">จัด segments</text>
+    <text x="480" y="202" fill="#9dbdff" font-size="16">ส่งต่อ HLS / DASH</text>
+    <text x="300" y="239" fill="#a8b8cb" font-size="17">Player เลือก bitrate ให้เหมาะกับ network</text>
+  </g>
+</svg>
