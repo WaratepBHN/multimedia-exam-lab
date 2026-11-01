@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" role="img" aria-labelledby="graphics-title graphics-desc">
+  <title id="graphics-title">Bitmap pixels and vector geometry</title>
+  <desc id="graphics-desc">A bitmap stores a circle and diagonal as a fixed grid of square pixels. A vector describes a smooth circle and line mathematically. A left-pointing arrow shows rasterization from vector geometry to pixel output for display.</desc>
+  <defs>
+    <pattern id="pixel-grid" width="14" height="14" patternUnits="userSpaceOnUse">
+      <rect width="14" height="14" fill="#142234"/>
+      <path d="M14 0H0V14" fill="none" stroke="#2a3a4f" stroke-width="1"/>
+    </pattern>
+    <marker id="raster-arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto" markerUnits="strokeWidth">
+      <path d="M1 1L6 4L1 7" fill="none" stroke="#ffc18e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <g font-family="Noto Sans Thai, sans-serif">
+    <rect x="2" y="2" width="596" height="256" rx="20" fill="#0d1724" stroke="#2a3a4f"/>
+    <path d="M300 28V170" fill="none" stroke="#2a3a4f"/>
+    <text x="28" y="38" fill="#ffc18e" font-size="18" font-weight="600">BITMAP · PIXELS</text>
+    <text x="328" y="38" fill="#9dbdff" font-size="18" font-weight="600">VECTOR · GEOMETRY</text>
+
+    <rect x="28" y="56" width="238" height="112" rx="0" fill="url(#pixel-grid)" stroke="#2a3a4f"/>
+    <g fill="#8aefc4" shape-rendering="crispEdges">
+      <path d="M70 70H112V84H126V126H112V140H70V126H56V84H70Z"/>
+      <rect x="182" y="140" width="14" height="14"/>
+      <rect x="196" y="126" width="14" height="14"/>
+      <rect x="210" y="112" width="14" height="14"/>
+      <rect x="224" y="98" width="14" height="14"/>
+      <rect x="238" y="84" width="14" height="14"/>
+    </g>
+    <g fill="none" stroke="#8aefc4" stroke-width="4" stroke-linecap="round">
+      <circle cx="378" cy="111" r="35"/>
+      <path d="M450 148L516 82"/>
+    </g>
+    <text x="147" y="188" text-anchor="middle" fill="#a8b8cb" font-size="16">fixed pixel grid</text>
+    <text x="448" y="188" text-anchor="middle" fill="#a8b8cb" font-size="16">circle + line instructions</text>
+    <path d="M438 207H166" fill="none" stroke="#ffc18e" stroke-width="2.5" marker-end="url(#raster-arrow)"/>
+    <text x="300" y="233" text-anchor="middle" fill="#edf3fb" font-size="17">Rasterization → pixel output for display</text>
+  </g>
+</svg>

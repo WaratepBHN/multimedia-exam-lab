@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 260" role="img" aria-labelledby="bezier-title bezier-desc">
+  <title id="bezier-title">Cubic Bézier curve with endpoints and control handles</title>
+  <desc id="bezier-desc">The cubic path starts at P0 at 60,200 and ends at P3 at 540,200. Its control points are P1 at 170,25 and P2 at 410,25. A dashed control polygon joins P0, P1, P2 and P3. The green curve passes through P0 and P3 but not P1 or P2.</desc>
+  <g font-family="Noto Sans Thai, sans-serif">
+    <rect x="2" y="2" width="596" height="256" rx="20" fill="#0d1724" stroke="#2a3a4f"/>
+    <path d="M60 200L170 25L410 25L540 200" fill="none" stroke="#9dbdff" stroke-width="2" stroke-dasharray="7 6"/>
+    <path d="M60 200C170 25 410 25 540 200" fill="none" stroke="#8aefc4" stroke-width="5" stroke-linecap="round"/>
+
+    <g fill="#0d1724" stroke="#9dbdff" stroke-width="3">
+      <circle cx="170" cy="25" r="6"/>
+      <circle cx="410" cy="25" r="6"/>
+    </g>
+    <g fill="#8aefc4" stroke="#0d1724" stroke-width="2">
+      <circle cx="60" cy="200" r="7"/>
+      <circle cx="540" cy="200" r="7"/>
+    </g>
+
+    <g fill="#9dbdff" font-size="18" font-weight="600">
+      <text x="126" y="31">P1</text>
+      <text x="426" y="31">P2</text>
+    </g>
+    <g fill="#edf3fb" font-size="18" font-weight="600">
+      <text x="40" y="229">P0</text>
+      <text x="529" y="229">P3</text>
+    </g>
+
+    <text x="290" y="56" text-anchor="middle" fill="#9dbdff" font-size="16">control handles</text>
+    <text x="296" y="133" text-anchor="middle" fill="#8aefc4" font-size="18" font-weight="600">Cubic Bézier</text>
+    <text x="296" y="161" text-anchor="middle" fill="#a8b8cb" font-size="16">P1 / P2 shape the curve</text>
+    <text x="296" y="225" text-anchor="middle" fill="#edf3fb" font-size="16">Curve passes through P0 and P3</text>
+  </g>
+</svg>
